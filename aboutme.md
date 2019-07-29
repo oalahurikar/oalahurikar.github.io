@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: The essentials
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+**Work:** Since August 2016, I have been working as a software and application engineer at Horiba Automotive Test Systems. Prior to that, I have worked as a power train integration engineer at Fiat Chrysler Automobiles (2013-2016).
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+**Education:** I finished my MS in the Mechanical Engineering at Michigan Technological  University in 2013. In my thesis I developed and applied probabilistic machine learning methods to biomedical applications. See more about my research in the Projects page.
 
-What else do you need?
+**Open knowledge:** On my spare time I have been working on minimum viable product for my ideas.
+Playing with arduino and python. See more at the Projects page.
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Hobbies:** Ultimate reading, trekking, kite flying, photography, cycling.
