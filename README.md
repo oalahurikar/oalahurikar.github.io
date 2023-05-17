@@ -1,3 +1,5 @@
+## Need to change repo name to USERNAME.github.io in order to use github pages
+
 # Project Start ToDos
 
 `bundle update`
