@@ -1,3 +1,9 @@
+# Project Start ToDos
+
+`bundle update`
+`bundle`
+`bundle exec jekyll serve` for running Jekylle Server
+
 Reference:
 Beautiful Jekyll Theme
 - https://github.com/daattali/beautiful-jekyll
