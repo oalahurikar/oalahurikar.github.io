@@ -1,0 +1,11 @@
+---
+layout: post
+title: AI
+subtitle: New way to solve engineering problems
+gh-repo:
+gh-badge:
+tags: [ai]
+comments: true
+---
+
+Hello AI
