@@ -1,9 +1,16 @@
-# Project Start ToDos
+## Project Start ToDos
 
 `bundle update`
 `bundle`
 `bundle exec jekyll serve` for running Jekylle Server
 
+## Website ToDos
+- [ ]Home page may be About Me
+- [ ]Where and how to change home page?
+- [ ]Google analytics in _config.yaml
+
+
+---
 Reference:
 Beautiful Jekyll Theme
 - https://github.com/daattali/beautiful-jekyll
