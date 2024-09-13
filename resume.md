@@ -6,7 +6,7 @@ subtitle: The essentials
 
 ## Co-Founder  MeruDynamics - Uber for manufacturing   | (Django, python, google cloud, Hands On Technical Lead)    2020 - 2022 
 
-- Co-founded and successfully launched startup from ideation to market entry, achieving user base and revenue.
+- Co-founded and launched startup from ideation to market entry, achieving user base and revenue.
 - Successfully built and led a cross-functional team of four members, fostering a collaborative and high-performance culture that accelerated product development.
 - Conducted customer interviews to gain deep insights into their pain points, effectively translating their feedback into actionable improvements for the product.
 - Led the development of Minimum Viable Product (MVP) and managed a full-stack developer team, ensuring timely delivery and product feature which solves customer pain.
