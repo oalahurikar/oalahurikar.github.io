@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linear Vs Exponential growth
+title: Tesla Vs other automotive OEM comparision
 subtitle: 
 gh-repo:
 gh-badge:
