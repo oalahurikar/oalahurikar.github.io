@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Best Practices for Productionizing Your Code
+title: Best Practices for Productionizing Code
 subtitle: 
 gh-repo:
 gh-badge:
@@ -9,7 +9,7 @@ comments: true
 ---
 
 =======================================================================
-                🚀 Best Practices for Productionizing Your Code 🚀
+                🚀 Best Practices for Productionizing Code 🚀
 =======================================================================
 
 Some **best practices** for taking your Flask applications from development to production. Whether you're deploying on DigitalOcean, leveraging Docker, or using GitHub Container Registry (GHCR), these guidelines will help ensure app runs smoothly, securely, and efficiently in a production environment.

@@ -25,7 +25,8 @@ Aluminum Nitride       |███
 Silicon Carbide        |███
 Aluminum               |████
 
-THermal Conductivity of materials.
+Below is a list of the top 10 materials known for their exceptional thermal conductivities:
+
 | Rank | Material                 | Thermal Conductivity (W/m·K) | Times Higher than Copper | Applications                                             |
 |------|--------------------------|------------------------------|--------------------------|----------------------------------------------------------|
 | 1    | Graphene                 | Up to 5300                   | ~13.2x                   | Advanced electronics, thermal management, nanotechnology |
@@ -38,6 +39,10 @@ THermal Conductivity of materials.
 | 8    | Silicon Carbide (SiC)    | 120–270                      | ~0.3x–0.67x              | High-temp electronics, abrasives, LEDs                   |
 | 9    | Aluminum Nitride (AlN)   | 140–180                      | ~0.35x–0.45x             | Electronic substrates, heat sinks                        |
 | 10   | Aluminum                 | 237                          | ~0.59x                   | Heat exchangers, automotive parts                        |
+
+>Variability of Values: The thermal conductivity of materials like graphene, diamond, and carbon nanotubes can vary significantly based on factors such as purity, isotopic composition, and structural defects.
+
+To better understand the comparison, here’s a bar chart representing the thermal conductivities of these materials:
 
 To understand the significance of these numbers, let’s compare them with the thermal conductivities of everyday materials:
 
