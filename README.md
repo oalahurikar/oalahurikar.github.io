@@ -1,7 +1,9 @@
 ## Project Start ToDos
 
 `bundle update`
+
 `bundle`
+
 `bundle exec jekyll serve` for running Jekylle Server
 
 ## Website ToDos
