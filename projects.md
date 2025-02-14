@@ -6,6 +6,9 @@ subtitle: Open knowledge, research.
 
 # My [GitHub](https://github.com/oalahurikar?tab=repositories)
 
+## LLM projects
+- [Project Details] [Github code]
+
 ## AI projects
  - [Road Lane Lines Detection](https://github.com/oalahurikar/Advance-Lane-Lines) Using open CV and convolution neural network (CNN) to detect road lane lines.
  - [Traffic sign identification](https://github.com/oalahurikar/Self-Driving/tree/master/Term1/2.%20Traffic%20Sign%20Classifier)  Identify road Traffic Sign using computer vision and convolutional neural network.
