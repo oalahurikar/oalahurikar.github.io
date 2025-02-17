@@ -1,0 +1,14 @@
+---
+layout: post
+---
+
+{{ content }}
+
+<script>
+  // Re-initialize mermaid after content loads
+  document.addEventListener("DOMContentLoaded", function() {
+    if (typeof mermaid !== 'undefined') {
+      mermaid.init(undefined, '.mermaid');
+    }
+  });
+</script> 

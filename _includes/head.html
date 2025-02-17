@@ -128,4 +128,63 @@
   <link rel="stylesheet" href="{{ "/css/staticman.css" | relative_url }}" />
   {% endif %}
 
+  <!-- Mermaid Support -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: localStorage.getItem('theme') === 'dark' ? 'dark' : 'default',
+      securityLevel: 'loose',
+      themeVariables: {
+        fontSize: '16px'
+      },
+      htmlLabels: true,
+      flowchart: {
+        useMaxWidth: true,
+        htmlLabels: true,
+        curve: 'cardinal'
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+      // Force re-render mermaid diagrams
+      mermaid.init(undefined, '.mermaid');
+      
+      // Handle theme changes
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.attributeName === 'data-theme') {
+            mermaid.initialize({
+              theme: document.body.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+            });
+            mermaid.init(undefined, '.mermaid');
+          }
+        });
+      });
+
+      observer.observe(document.body, {
+        attributes: true
+      });
+    });
+  </script>
+
+  <style>
+    .mermaid {
+      background-color: white;
+      padding: 1em;
+      border-radius: 8px;
+      margin: 1em 0;
+      overflow-x: auto;
+    }
+    @media (prefers-color-scheme: dark) {
+      .mermaid {
+        background-color: #f8f8f8;
+      }
+    }
+    .mermaid svg {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+
 </head>

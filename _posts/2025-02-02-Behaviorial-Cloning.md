@@ -1,4 +1,10 @@
-#ai #project 
+---
+layout: mermaid-post
+tags:
+  - ai
+  - project
+---
+
 
 This is project I did on **Behavioral Cloning for Autonomous Driving Using Convolutional Neural Network (CNN)**
 if you are interested in code its here [Project github repo](https://github.com/oalahurikar/Self-Driving/tree/master/Term1/3.%20Behaviorial%20Cloning).
@@ -22,7 +28,7 @@ I used all 3 camera images to train my model. I changed steering angle correctio
 
 Project's workflow:
 
-```mermaid
+<div class="mermaid">
 graph TD
   A[Data Collection] --> B[Preprocessing]
   B --> C[Data Augmentation]
@@ -32,8 +38,7 @@ graph TD
   F --> G[Autonomous Driving Test]
   G -->|Success| H[Model Deployment]
   G -->|Failure| E[Re-train Model]
-
-```
+</div>
 
 
 ## 📊 **Key Components & Features**
@@ -50,7 +55,7 @@ graph TD
 
 ## 🏗 **LeNet CNN Model Architecture**
 
-```mermaid
+<div class="mermaid">
 graph TD
   A[Input Image 160x320x3] --> B[Lambda Layer - Normalization]
   B --> C[Cropping Layer - Remove sky & hood]
@@ -64,8 +69,7 @@ graph TD
   J --> K[Fully Connected - 50 neurons, RELU]
   K --> L[Fully Connected - 10 neurons, RELU]
   L --> M[Output - Steering Angle]
-
-```
+</div>
 
 ---
 ## 📈 **Model Training & Performance**
@@ -97,9 +101,10 @@ graph TD
 
 • **Training & Validation Loss converge** more smoothly → **Less overfitting**
 
-| MSE with small data                                                                                                                                                              | MSE with Large data (Final solution)                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![alt_text-1](https://github.com/oalahurikar/Behaviorial-Cloning/raw/master/MSE%20Error1.png)](https://github.com/oalahurikar/Behaviorial-Cloning/blob/master/MSE%20Error1.png) | [![alt_text-2](https://github.com/oalahurikar/Behaviorial-Cloning/raw/master/MSE%20Error2.png)](https://github.com/oalahurikar/Behaviorial-Cloning/blob/master/MSE%20Error2.png) |
+| MSE with small data | MSE with Large data (Final solution) |
+|:---:|:---:|
+| ![MSE with small data](https://github.com/oalahurikar/Behaviorial-Cloning/raw/master/MSE%20Error1.png) | ![MSE with large data](https://github.com/oalahurikar/Behaviorial-Cloning/raw/master/MSE%20Error2.png) |
+
 ### **📌 What these results mean** 
 ✅ **Overfitting Reduction** – Increasing data **reduced the training-validation gap**
 ✅ **Better Generalization** – Validation loss **decreased**, meaning it performs well on unseen data
