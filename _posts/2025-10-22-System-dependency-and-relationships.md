@@ -6,6 +6,12 @@ dependency:
 subtitle:
 ---
 ## First Principles Foundation
+**Every mechatronic system is an energy–information–structure loop under constraints.**
+- _Energy_ enables motion.
+- _Structure_ shapes and constrains motion.
+- _Information_ regulates motion through feedback.
+> **System intelligence lies in managing these dependencies predictably and stably.**
+   
 Every mechatronic system, no matter how advanced, depends on **three natural laws** and **three human-designed layers**.
 
 | **Category** | **First Principle**               | **What It Means**                                                                   | **Example (Drone)**                                 |
