@@ -18,7 +18,14 @@ Behavioral cloning is an approach in deep learning where a neural network learns
 📌 **Data:** ~**4825 images** from a simulated environment.
 
 ## 📸  Training data
-I used all 3 camera images to train my model. I changed steering angle correction factor from 0.2 to 0.4 which showed lot improvement in driving. While recording data I tried to keep car in middle of road. I let the car drift to the edge of the road and recover before a crash occurs. I took 2 laps of center lane and one lap of track from opposite direction. I got around 4825 data points for training my model.
+I used images from **three cameras** (center, left, right) to teach the car how to drive.  
+To help it learn how to recover when off-track, I added a **steering correction of ±0.4** for left and right images.  
+I recorded data while:
+- Driving normally in the center of the lane (2 laps)
+- Letting the car drift and recover before crashing
+- Driving the track in reverse (1 lap)
+
+In total, I collected about **4,825 images** to train the model.
 
 |Center view|Left view|Right view|
 |---|---|---|
