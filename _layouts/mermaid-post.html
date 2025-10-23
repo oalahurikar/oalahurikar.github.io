@@ -5,10 +5,26 @@ layout: post
 {{ content }}
 
 <script>
-  // Re-initialize mermaid after content loads
-  document.addEventListener("DOMContentLoaded", function() {
-    if (typeof mermaid !== 'undefined') {
-      mermaid.init(undefined, '.mermaid');
-    }
+document.addEventListener("DOMContentLoaded", function() {
+  // Convert mermaid code blocks to divs automatically
+  const mermaidBlocks = document.querySelectorAll('pre code.language-mermaid');
+  
+  mermaidBlocks.forEach(function(block) {
+    const parent = block.parentElement;
+    const mermaidCode = block.textContent;
+    
+    // Create new div with mermaid class
+    const mermaidDiv = document.createElement('div');
+    mermaidDiv.className = 'mermaid';
+    mermaidDiv.textContent = mermaidCode;
+    
+    // Replace the pre element with the div
+    parent.parentElement.replaceChild(mermaidDiv, parent);
   });
+  
+  // Re-initialize mermaid after conversion
+  if (typeof mermaid !== 'undefined') {
+    mermaid.init(undefined, '.mermaid');
+  }
+});
 </script> 

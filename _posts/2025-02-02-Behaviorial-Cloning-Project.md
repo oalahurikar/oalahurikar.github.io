@@ -35,7 +35,7 @@ In total, I collected about **4,825 images** to train the model.
 
 Project's workflow:
 
-<div class="mermaid">
+```mermaid
 graph TD
   A[Data Collection] --> B[Preprocessing]
   B --> C[Data Augmentation]
@@ -45,7 +45,7 @@ graph TD
   F --> G[Autonomous Driving Test]
   G -->|Success| H[Model Deployment]
   G -->|Failure| E[Re-train Model]
-</div>
+```
 
 
 ## 📊 **Key Components & Features**
@@ -62,7 +62,7 @@ graph TD
 
 ## 🏗 **LeNet CNN Model Architecture**
 
-<div class="mermaid">
+```mermaid
 graph TD
   A[Input Image 160x320x3] --> B[Lambda Layer - Normalization]
   B --> C[Cropping Layer - Remove sky & hood]
@@ -76,7 +76,7 @@ graph TD
   J --> K[Fully Connected - 50 neurons, RELU]
   K --> L[Fully Connected - 10 neurons, RELU]
   L --> M[Output - Steering Angle]
-</div>
+```
 
 ---
 ## 📈 **Model Training & Performance**

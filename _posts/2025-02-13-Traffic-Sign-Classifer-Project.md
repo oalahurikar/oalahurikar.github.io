@@ -69,7 +69,7 @@ The CNN used a **modified LeNet architecture** with:
 📊 **Visualization of Model Architecture**
 
 
-<div class="mermaid">
+```mermaid
 graph TD
     A[Input: 32x32 Traffic Sign Image] -->|Grayscale + Normalize| B[Preprocessing]
     B -->|Data Augmentation| C{CNN Feature Extraction}
@@ -81,8 +81,7 @@ graph TD
     F -->|Dense Layer: 84, ReLU| G[Softmax Output 43 Classes]
     
     G --> H[Model Prediction]
-
-</div>
+```
 
 
 ---

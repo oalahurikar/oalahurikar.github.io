@@ -61,15 +61,15 @@ with open('_posts/your-post.md', 'w') as f:
 ```
 
 ### Mermaid Diagrams
-Mermaid diagrams work automatically with the `mermaid-post` layout using div wrapper:
-```html
-<div class="mermaid">
+Mermaid diagrams work automatically with the `mermaid-post` layout using standard Obsidian syntax:
+````markdown
+```mermaid
 graph TD
     A[Start] --> B[End]
-</div>
 ```
+````
 
-**Note:** Use `<div class="mermaid">` wrapper instead of ````mermaid` code blocks for Jekyll compatibility.
+**Note:** The `mermaid-post` layout automatically converts ````mermaid` code blocks to work with Jekyll. You can write in standard Obsidian syntax!
 
 
 ---
