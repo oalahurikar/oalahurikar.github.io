@@ -13,24 +13,10 @@ subtitle:
 > **System intelligence lies in managing these dependencies predictably and stably.**
    
 Every mechatronic system, no matter how advanced, depends on **three natural laws** and **three human-designed layers**.
-
-| **Category** |        **First Principle**        |                                  **What It Means**                                  |                 **Example (Drone)**                 |
-| :----------: | :-------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------: |
-| **Physics**  |      **Energy Conservation**      |                      Energy only transforms—never disappears.                       |      Battery → Electrical → Mechanical → Lift       |
-| **Physics**  | **Force Balance (Newton’s Laws)** |                  Motion only changes if net forces or torques act.                  |          Thrust = Weight + Drag for hover           |
-| **Physics**  |     **Information Causality**     |             The system can only react to what it senses and processes.              |   IMU detects acceleration → controller responds    |
-|  **Design**  |     **Functional Hierarchy**      |   System decomposes into functions that exchange matter, energy, and information.   |     Sensor → Estimator → Controller → Actuator      |
-|  **Design**  |      **Feedback & Control**       |          All stable systems self-regulate through negative feedback loops.          |            PID loop maintains roll angle            |
-|  **Design**  |    **Constraint Satisfaction**    | Every system operates within limited energy, material, and computational resources. | Battery limits flight time; CPU limits control rate |
-
-|     |     |
-| --- | --- |
-|     |     |
-### **Three Core Dependencies (at the heart of every mechatronic system)**
+### **Three Core Dependencies
 1. **Energy Dependency**
 > Without energy, nothing moves.
 - Determines what’s _possible_ physically.
-- Propagates from `source → conversion → actuation → losses`.
 Example:
 `Energy Source → Power Electronics → Actuator → Motion → Heat`
 
