@@ -12,7 +12,8 @@ subtitle: Open knowledge, research.
 ## AI projects
  - [Road Lane Lines Detection](https://github.com/oalahurikar/Advance-Lane-Lines) Using open CV and convolution neural network (CNN) to detect road lane lines.
  - [Traffic sign identification](https://github.com/oalahurikar/Self-Driving/tree/master/Term1/2.%20Traffic%20Sign%20Classifier)  Identify road Traffic Sign using computer vision and convolutional neural network.
-- [Behavioural Cloning Applied to Self-Driving Car on a Simulated Track](https://github.com/oalahurikar/Self-Driving/tree/master/Term1/3.%20Behaviorial%20Cloning) , Clone and capture human driving behavior, to train CNN. 
+- [Behavioural Cloning Applied to Self-Driving Car on a Simulated Track](https://github.com/oalahurikar/Self-Driving/tree/master/Term1/3.%20Behaviorial%20Cloning) , Clone and capture human driving behavior, to train CNN.
+- [Model Predictive Control for Self-Driving](https://github.com/oalahurikar/CarND-MPC-Project) C++ MPC controller (Ipopt + CppAD + Eigen) optimizing steering and throttle every 50 ms under 100 ms simulated actuation latency. 
 
 ## Embedded projects
 - [Position estimation of moving pedestrian](https://github.com/oalahurikar/Extended-Kalman-Filter-Project) Extended Kalman filter used for sensor fusion to estimate the position and velocity of pedestrian using lidar and radar sensor data.
