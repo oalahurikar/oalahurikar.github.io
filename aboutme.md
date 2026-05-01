@@ -13,12 +13,3 @@ I'm currently a Lead ADAS Controls Engineer at Ford since February 2022. Before 
 See more at the Projects page.
 
 **Hobbies:** Reading, trekking, kite flying, cross-fit, cycling.
-
-**Summary of my life philosophy**
-•	Life is about solving problems; obstacles are the way forward.
-•	Make improvements, not excuses.
-•	Self-care comes first—health is essential for happiness.
-•	Life is short; do what brings out the best in you.
-•	Always question your assumptions.
-•	Effort matters more than talent.
-•	Commitment and perseverance will take you far.
