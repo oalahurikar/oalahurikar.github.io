@@ -4,10 +4,11 @@ title: "Notes From Building an Eval Harness for a Production AI Co-Pilot"
 subtitle: "Why shipping LLM apps by vibes is more dangerous than it looks"
 date: 2026-05-08
 tags:
+  - ai
+  - engineering
   - llm
   - evals
   - prompt-engineering
-  - ai-engineering
 ---
 
 Most LLM apps in 2026 ship by vibes — write a prompt change, read a few outputs, decide if it feels better, ship. The "decide if it feels better" step is the problem.
